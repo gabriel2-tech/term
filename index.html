@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrole — Conditions d'utilisation</title>
+  <meta name="theme-color" content="#f6f7f9">
+  <script>
+    (function () {
+      var t; try {t = localStorage.getItem('scrole-theme')} catch (e) { }
+      if (t !== 'light' && t !== 'dark') {t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'}
+      document.documentElement.setAttribute('data-theme', t)
+    })();
+  </script>
+  <link rel="icon" href="image/img.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <a href="#top" class="brand">
+        <img src="image/img.png" alt="" class="brand-logo" width="36" height="36">
+        <span class="brand-name">Scrole</span>
+      </a>
+      <span class="brand-tag" data-lang-content data-lang="fr">Conditions d'utilisation</span>
+      <span class="brand-tag" data-lang-content data-lang="en">Terms of Use</span>
+      <span class="brand-tag" data-lang-content data-lang="de">Nutzungsbedingungen</span>
+      <span class="brand-tag" data-lang-content data-lang="es">Términos de uso</span>
+      <span class="brand-tag" data-lang-content data-lang="zh">使用条款</span>
+
+      <div class="doc-switch">
+        <span class="doc-switch-current" data-lang-content data-lang="fr">Conditions d'utilisation</span>
+        <span class="doc-switch-current" data-lang-content data-lang="en">Terms of Use</span>
+        <span class="doc-switch-current" data-lang-content data-lang="de">Nutzungsbedingungen</span>
+        <span class="doc-switch-current" data-lang-content data-lang="es">Términos de uso</span>
+        <span class="doc-switch-current" data-lang-content data-lang="zh">使用条款</span>
+        <a href="index.html" class="doc-switch-link" data-lang-content data-lang="fr">Politique de confidentialité →</a>
+        <a href="index.html" class="doc-switch-link" data-lang-content data-lang="en">Privacy Policy →</a>
+        <a href="index.html" class="doc-switch-link" data-lang-content data-lang="de">Datenschutzerklärung →</a>
+        <a href="index.html" class="doc-switch-link" data-lang-content data-lang="es">Política de privacidad →</a>
+        <a href="index.html" class="doc-switch-link" data-lang-content data-lang="zh">隐私政策 →</a>
+      </div>
+
+      <nav class="toc" aria-label="Sommaire">
+        <ol id="toc-list"></ol>
+      </nav>
+
+      <div class="controls">
+        <select id="lang-select" aria-label="Langue">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Español</option>
+          <option value="zh">中文</option>
+        </select>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Changer de thème">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+          </svg>
+        </button>
+      </div>
+
+      <p class="updated">
+        <span data-lang-content data-lang="fr">Dernière mise à jour : 10 septembre 2026</span>
+        <span data-lang-content data-lang="en">Last updated: September 10, 2026</span>
+        <span data-lang-content data-lang="de">Letzte Aktualisierung: 10. September 2026</span>
+        <span data-lang-content data-lang="es">Última actualización: 10 de septiembre de 2026</span>
+        <span data-lang-content data-lang="zh">最后更新：2026年9月10日</span>
+      </p>
+    </aside>
+
+    <main id="top">
+      <div class="doc">
+
+        <!-- ============ FR ============ -->
+        <div data-lang-content data-lang="fr">
+          <header>
+            <h1>Conditions d'utilisation</h1>
+            <p>Les règles à respecter pour utiliser Scrole, l'application pour trouver des événements et construire sa
+              communauté.</p>
+          </header>
+
+          <section class="policy-section" id="fr-objet">
+            <h2><span class="num">01</span>Objet et acceptation</h2>
+            <p>Les présentes conditions d'utilisation (« Conditions ») régissent l'usage de l'application Scrole, éditée
+              par <strong>Scrole App</strong>, projet créé par deux personnes dont l'entreprise est en cours de
+              création. En créant un compte ou en utilisant Scrole, vous acceptez ces Conditions dans leur intégralité.
+              Si vous n'êtes pas d'accord avec l'une de ces clauses, vous ne devez pas utiliser l'application.</p>
+          </section>
+
+          <section class="policy-section" id="fr-eligibilite">
+            <h2><span class="num">02</span>Éligibilité</h2>
+            <p>Scrole est réservé aux personnes de <strong>18 ans ou plus</strong>. En créant un compte, vous déclarez
+              avoir au moins 18 ans. Toute inscription frauduleuse sur ce point peut entraîner la suspension immédiate
+              du compte, conformément à notre politique de confidentialité.</p>
+          </section>
+
+          <section class="policy-section" id="fr-compte">
+            <h2><span class="num">03</span>Votre compte</h2>
+            <p>Vous êtes responsable de l'exactitude des informations fournies lors de l'inscription et de la
+              confidentialité de vos identifiants de connexion. Pour limiter les usurpations et abus, certaines
+              informations (pseudo, genre, date de naissance, localisation) ne peuvent être modifiées qu'une fois tous
+              les 90 jours. Vous devez nous informer immédiatement de toute utilisation non autorisée de votre compte.
+            </p>
+          </section>
+
+          <section class="policy-section" id="fr-conduite">
+            <h2><span class="num">04</span>Règles de conduite</h2>
+            <p>En utilisant Scrole, vous vous engagez à ne pas :</p>
+            <ul>
+              <li>publier de contenu illégal, haineux, violent, sexuellement explicite ou harcelant ;</li>
+              <li>usurper l'identité d'une autre personne ou entité ;</li>
+              <li>utiliser l'application à des fins de spam, de fraude ou de démarchage non sollicité ;</li>
+              <li>tenter de contourner les mesures de sécurité ou d'accéder à des données qui ne vous sont pas destinées
+                ;</li>
+              <li>porter atteinte à des mineurs de quelque manière que ce soit.</li>
+            </ul>
+            <p>Le non-respect de ces règles peut entraîner un avertissement, une restriction temporaire, ou une
+              suppression définitive du compte.</p>
+          </section>
+
+          <section class="policy-section" id="fr-communautes">
+            <h2><span class="num">05</span>Communautés</h2>
+            <p>Toute personne peut créer une communauté sur Scrole et en devient administratrice (rôle « Owner »). Les
+              administrateurs et modérateurs d'une communauté sont responsables du respect des présentes Conditions en
+              son sein, y compris de la définition de règles d'accès complémentaires (âge, pays, genre). Scrole se
+              réserve le droit de suspendre ou de supprimer une communauté qui ne respecte pas ces Conditions.</p>
+          </section>
+
+          <section class="policy-section" id="fr-certification">
+            <h2><span class="num">06</span>Certification de compte</h2>
+            <p>Scrole propose une certification de compte payante, soumise à la vérification de documents d'identité.
+              Les paiements sont traités par notre prestataire <strong>Genuys</strong>. La certification peut être
+              refusée si les documents fournis sont invalides ou falsifiés, et révoquée si le compte enfreint ces
+              Conditions par la suite. Les conditions de remboursement éventuelles vous sont communiquées au moment du
+              paiement.</p>
+          </section>
+
+          <section class="policy-section" id="fr-contenu">
+            <h2><span class="num">07</span>Contenu et propriété intellectuelle</h2>
+            <p>Vous restez propriétaire du contenu que vous publiez sur Scrole (photos, textes, biographie). En le
+              publiant, vous accordez à Scrole une licence non exclusive, gratuite et mondiale pour héberger, afficher
+              et distribuer ce contenu dans le cadre du fonctionnement de l'application. Vous garantissez disposer des
+              droits nécessaires sur tout contenu que vous publiez, et ne pas porter atteinte aux droits de tiers.</p>
+          </section>
+
+          <section class="policy-section" id="fr-moderation">
+            <h2><span class="num">08</span>Signalement, modération et sanctions</h2>
+            <p>Vous pouvez signaler un contenu ou un profil, et bloquer un autre utilisateur. Notre équipe de modération
+              examine les signalements et peut prendre des mesures proportionnées à la gravité des faits :
+              avertissement, restriction temporaire, suspension, ou suppression définitive du compte concerné.</p>
+          </section>
+
+          <section class="policy-section" id="fr-suppression">
+            <h2><span class="num">09</span>Suspension et suppression de compte</h2>
+            <p>Vous pouvez supprimer votre compte à tout moment depuis les paramètres de l'application. Nous pouvons
+              suspendre ou supprimer votre compte en cas de violation de ces Conditions, sans préavis en cas de
+              manquement grave. Consultez notre politique de confidentialité pour les délais de conservation des données
+              après suppression.</p>
+          </section>
+
+          <section class="policy-section" id="fr-responsabilite">
+            <h2><span class="num">10</span>Limitation de responsabilité</h2>
+            <p>Scrole est fourni « en l'état ». Dans la limite permise par la loi, Scrole App ne saurait être tenue
+              responsable des dommages indirects résultant de l'utilisation de l'application. Le contenu publié par les
+              utilisateurs relève de leur seule responsabilité.</p>
+          </section>
+
+          <section class="policy-section" id="fr-modifications">
+            <h2><span class="num">11</span>Modifications des Conditions</h2>
+            <p>Nous pouvons modifier ces Conditions pour refléter l'évolution de nos services ou de la réglementation.
+              Toute modification importante vous sera signalée dans l'application avant son entrée en vigueur.</p>
+          </section>
+
+          <section class="policy-section" id="fr-droit">
+            <h2><span class="num">12</span>Droit applicable</h2>
+            <div class="note-box">
+              Clause provisoire, à faire valider par un juriste lors de la création officielle de l'entreprise.
+            </div>
+            <p>À titre provisoire, ces Conditions sont soumises au droit camerounais. Tout litige relatif à leur
+              interprétation ou leur exécution sera porté devant les juridictions compétentes, sauf disposition
+              impérative contraire applicable à votre lieu de résidence.</p>
+          </section>
+
+          <section class="policy-section" id="fr-contact">
+            <h2><span class="num">13</span>Contact</h2>
+            <div class="contact-block">
+              <dl>
+                <dt>Éditeur</dt>
+                <dd>Scrole App</dd>
+                <dt>Email</dt>
+                <dd>contact@scrole.fun</dd>
+                <dt>Objet</dt>
+                <dd>Questions relatives aux présentes Conditions</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+
+        <!-- ============ EN ============ -->
+        <div data-lang-content data-lang="en">
+          <header>
+            <h1>Terms of Use</h1>
+            <p>The rules that apply when you use Scrole, the app for finding events and building your community.</p>
+          </header>
+
+          <section class="policy-section" id="en-purpose">
+            <h2><span class="num">01</span>Purpose and acceptance</h2>
+            <p>These terms of use (the "Terms") govern the use of the Scrole app, published by <strong>Scrole
+                App</strong>, a project created by two people whose company is currently being set up. By creating an
+              account or using Scrole, you accept these Terms in full. If you disagree with any part of them, you must
+              not use the app.</p>
+          </section>
+
+          <section class="policy-section" id="en-eligibility">
+            <h2><span class="num">02</span>Eligibility</h2>
+            <p>Scrole is only for people <strong>18 years of age or older</strong>. By creating an account, you confirm
+              that you are at least 18. Any fraudulent registration on this point may lead to immediate account
+              suspension, in line with our privacy policy.</p>
+          </section>
+
+          <section class="policy-section" id="en-account">
+            <h2><span class="num">03</span>Your account</h2>
+            <p>You are responsible for the accuracy of the information you provide when signing up, and for keeping your
+              login credentials confidential. To limit impersonation and abuse, certain information (username, gender,
+              date of birth, location) can only be changed once every 90 days. You must notify us immediately of any
+              unauthorised use of your account.</p>
+          </section>
+
+          <section class="policy-section" id="en-conduct">
+            <h2><span class="num">04</span>Code of conduct</h2>
+            <p>By using Scrole, you agree not to:</p>
+            <ul>
+              <li>post illegal, hateful, violent, sexually explicit, or harassing content;</li>
+              <li>impersonate another person or entity;</li>
+              <li>use the app for spam, fraud, or unsolicited solicitation;</li>
+              <li>try to bypass security measures or access data not meant for you;</li>
+              <li>harm minors in any way.</li>
+            </ul>
+            <p>Breaking these rules may lead to a warning, a temporary restriction, or permanent account deletion.</p>
+          </section>
+
+          <section class="policy-section" id="en-communities">
+            <h2><span class="num">05</span>Communities</h2>
+            <p>Anyone can create a community on Scrole and becomes its administrator (the "Owner" role). Community
+              admins and moderators are responsible for enforcing these Terms within their community, including setting
+              additional access rules (age, country, gender). Scrole reserves the right to suspend or delete a community
+              that does not comply with these Terms.</p>
+          </section>
+
+          <section class="policy-section" id="en-certification">
+            <h2><span class="num">06</span>Account certification</h2>
+            <p>Scrole offers a paid account certification, subject to identity document verification. Payments are
+              processed by our provider <strong>Genuys</strong>. Certification may be refused if the documents provided
+              are invalid or falsified, and revoked if the account later breaches these Terms. Any refund terms will be
+              communicated to you at the time of payment.</p>
+          </section>
+
+          <section class="policy-section" id="en-content">
+            <h2><span class="num">07</span>Content and intellectual property</h2>
+            <p>You retain ownership of the content you post on Scrole (photos, text, bio). By posting it, you grant
+              Scrole a non-exclusive, royalty-free, worldwide licence to host, display, and distribute that content as
+              part of running the app. You warrant that you hold the necessary rights to any content you post and that
+              it does not infringe on the rights of others.</p>
+          </section>
+
+          <section class="policy-section" id="en-moderation">
+            <h2><span class="num">08</span>Reports, moderation, and sanctions</h2>
+            <p>You can report content or a profile, and block another user. Our moderation team reviews reports and may
+              take action proportionate to the severity of the case: a warning, a temporary restriction, suspension, or
+              permanent deletion of the account concerned.</p>
+          </section>
+
+          <section class="policy-section" id="en-termination">
+            <h2><span class="num">09</span>Suspension and account deletion</h2>
+            <p>You can delete your account at any time from the app's settings. We may suspend or delete your account if
+              you breach these Terms, without notice in cases of serious misconduct. See our privacy policy for how long
+              data is kept after deletion.</p>
+          </section>
+
+          <section class="policy-section" id="en-liability">
+            <h2><span class="num">10</span>Limitation of liability</h2>
+            <p>Scrole is provided "as is". To the extent permitted by law, Scrole App is not liable for indirect damages
+              resulting from use of the app. Content posted by users is their sole responsibility.</p>
+          </section>
+
+          <section class="policy-section" id="en-changes">
+            <h2><span class="num">11</span>Changes to these Terms</h2>
+            <p>We may update these Terms to reflect changes to our services or applicable law. We will notify you in the
+              app of any material change before it takes effect.</p>
+          </section>
+
+          <section class="policy-section" id="en-law">
+            <h2><span class="num">12</span>Governing law</h2>
+            <div class="note-box">
+              Provisional clause, to be reviewed by a lawyer once the company is officially created.
+            </div>
+            <p>On a provisional basis, these Terms are governed by the law of Cameroon. Any dispute over their
+              interpretation or performance will be brought before the competent courts, unless a mandatory rule
+              applicable in your place of residence provides otherwise.</p>
+          </section>
+
+          <section class="policy-section" id="en-contact">
+            <h2><span class="num">13</span>Contact</h2>
+            <div class="contact-block">
+              <dl>
+                <dt>Publisher</dt>
+                <dd>Scrole App</dd>
+                <dt>Email</dt>
+                <dd>contact@scrole.fun</dd>
+                <dt>Subject</dt>
+                <dd>Questions about these Terms</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+
+        <!-- ============ DE ============ -->
+        <div data-lang-content data-lang="de">
+          <header>
+            <h1>Nutzungsbedingungen</h1>
+            <p>Die Regeln, die bei der Nutzung von Scrole, der App zum Finden von Veranstaltungen und zum Aufbau Ihrer
+              Community, gelten.</p>
+          </header>
+
+          <section class="policy-section" id="de-zweck">
+            <h2><span class="num">01</span>Zweck und Zustimmung</h2>
+            <p>Diese Nutzungsbedingungen („Bedingungen") regeln die Nutzung der App Scrole, herausgegeben von
+              <strong>Scrole App</strong>, einem von zwei Personen gegründeten Projekt, dessen Unternehmen sich derzeit
+              in Gründung befindet. Mit der Erstellung eines Kontos oder der Nutzung von Scrole akzeptieren Sie diese
+              Bedingungen vollständig. Wenn Sie mit einer dieser Klauseln nicht einverstanden sind, dürfen Sie die App
+              nicht nutzen.</p>
+          </section>
+
+          <section class="policy-section" id="de-berechtigung">
+            <h2><span class="num">02</span>Berechtigung</h2>
+            <p>Scrole steht ausschließlich Personen ab <strong>18 Jahren</strong> offen. Mit der Kontoerstellung
+              bestätigen Sie, mindestens 18 Jahre alt zu sein. Falsche Angaben hierzu können gemäß unserer
+              Datenschutzerklärung zur sofortigen Kontosperrung führen.</p>
+          </section>
+
+          <section class="policy-section" id="de-konto">
+            <h2><span class="num">03</span>Ihr Konto</h2>
+            <p>Sie sind für die Richtigkeit der bei der Registrierung angegebenen Informationen sowie für die
+              Vertraulichkeit Ihrer Zugangsdaten verantwortlich. Um Identitätsmissbrauch vorzubeugen, können bestimmte
+              Angaben (Benutzername, Geschlecht, Geburtsdatum, Standort) nur alle 90 Tage geändert werden. Sie müssen
+              uns unverzüglich über jede unbefugte Nutzung Ihres Kontos informieren.</p>
+          </section>
+
+          <section class="policy-section" id="de-verhalten">
+            <h2><span class="num">04</span>Verhaltensregeln</h2>
+            <p>Bei der Nutzung von Scrole verpflichten Sie sich, Folgendes zu unterlassen:</p>
+            <ul>
+              <li>das Veröffentlichen illegaler, hasserfüllter, gewaltverherrlichender, sexuell expliziter oder
+                belästigender Inhalte;</li>
+              <li>das Vortäuschen der Identität einer anderen Person oder Organisation;</li>
+              <li>die Nutzung der App für Spam, Betrug oder unerwünschte Werbung;</li>
+              <li>den Versuch, Sicherheitsmaßnahmen zu umgehen oder auf nicht für Sie bestimmte Daten zuzugreifen;</li>
+              <li>Minderjährige in irgendeiner Weise zu schädigen.</li>
+            </ul>
+            <p>Verstöße gegen diese Regeln können zu einer Verwarnung, einer vorübergehenden Einschränkung oder der
+              endgültigen Löschung des Kontos führen.</p>
+          </section>
+
+          <section class="policy-section" id="de-communities">
+            <h2><span class="num">05</span>Communities</h2>
+            <p>Jede Person kann auf Scrole eine Community erstellen und wird dadurch deren Administrator:in (Rolle
+              „Owner"). Administrator:innen und Moderator:innen einer Community sind dafür verantwortlich, diese
+              Bedingungen innerhalb ihrer Community durchzusetzen, einschließlich der Festlegung zusätzlicher
+              Zugangsregeln (Alter, Land, Geschlecht). Scrole behält sich das Recht vor, eine Community zu sperren oder
+              zu löschen, die gegen diese Bedingungen verstößt.</p>
+          </section>
+
+          <section class="policy-section" id="de-zertifizierung">
+            <h2><span class="num">06</span>Kontozertifizierung</h2>
+            <p>Scrole bietet eine kostenpflichtige Kontozertifizierung an, die eine Überprüfung von Ausweisdokumenten
+              voraussetzt. Zahlungen werden von unserem Dienstleister <strong>Genuys</strong> abgewickelt. Die
+              Zertifizierung kann abgelehnt werden, wenn die vorgelegten Dokumente ungültig oder gefälscht sind, und
+              widerrufen werden, wenn das Konto später gegen diese Bedingungen verstößt. Etwaige Erstattungsbedingungen
+              werden Ihnen zum Zeitpunkt der Zahlung mitgeteilt.</p>
+          </section>
+
+          <section class="policy-section" id="de-inhalte">
+            <h2><span class="num">07</span>Inhalte und geistiges Eigentum</h2>
+            <p>Sie bleiben Eigentümer:in der Inhalte, die Sie auf Scrole veröffentlichen (Fotos, Texte, Biografie). Mit
+              der Veröffentlichung räumen Sie Scrole eine nicht-exklusive, unentgeltliche, weltweite Lizenz ein, diese
+              Inhalte im Rahmen des App-Betriebs zu hosten, anzuzeigen und zu verbreiten. Sie sichern zu, über die
+              erforderlichen Rechte an allen von Ihnen veröffentlichten Inhalten zu verfügen und keine Rechte Dritter zu
+              verletzen.</p>
+          </section>
+
+          <section class="policy-section" id="de-moderation">
+            <h2><span class="num">08</span>Meldungen, Moderation und Sanktionen</h2>
+            <p>Sie können Inhalte oder ein Profil melden und andere Nutzer:innen blockieren. Unser Moderationsteam prüft
+              Meldungen und kann je nach Schwere des Falls angemessene Maßnahmen ergreifen: Verwarnung, vorübergehende
+              Einschränkung, Sperrung oder endgültige Löschung des betroffenen Kontos.</p>
+          </section>
+
+          <section class="policy-section" id="de-loeschung">
+            <h2><span class="num">09</span>Sperrung und Kontolöschung</h2>
+            <p>Sie können Ihr Konto jederzeit über die App-Einstellungen löschen. Wir können Ihr Konto bei Verstößen
+              gegen diese Bedingungen sperren oder löschen, bei schwerwiegenden Verstößen auch ohne Vorankündigung. Wie
+              lange Daten nach der Löschung aufbewahrt werden, entnehmen Sie unserer Datenschutzerklärung.</p>
+          </section>
+
+          <section class="policy-section" id="de-haftung">
+            <h2><span class="num">10</span>Haftungsbeschränkung</h2>
+            <p>Scrole wird „wie besehen" bereitgestellt. Soweit gesetzlich zulässig, haftet Scrole App nicht für
+              mittelbare Schäden, die aus der Nutzung der App entstehen. Von Nutzer:innen veröffentlichte Inhalte liegen
+              in deren alleiniger Verantwortung.</p>
+          </section>
+
+          <section class="policy-section" id="de-aenderungen">
+            <h2><span class="num">11</span>Änderungen dieser Bedingungen</h2>
+            <p>Wir können diese Bedingungen aktualisieren, um Änderungen an unseren Diensten oder der geltenden
+              Rechtslage widerzuspiegeln. Über wesentliche Änderungen informieren wir Sie in der App, bevor sie wirksam
+              werden.</p>
+          </section>
+
+          <section class="policy-section" id="de-recht">
+            <h2><span class="num">12</span>Anwendbares Recht</h2>
+            <div class="note-box">
+              Vorläufige Klausel, die nach der offiziellen Gründung des Unternehmens anwaltlich geprüft werden sollte.
+            </div>
+            <p>Vorläufig unterliegen diese Bedingungen kamerunischem Recht. Streitigkeiten über deren Auslegung oder
+              Erfüllung werden vor den zuständigen Gerichten verhandelt, sofern keine zwingende, an Ihrem Wohnort
+              geltende Vorschrift etwas anderes bestimmt.</p>
+          </section>
+
+          <section class="policy-section" id="de-kontakt">
+            <h2><span class="num">13</span>Kontakt</h2>
+            <div class="contact-block">
+              <dl>
+                <dt>Herausgeber</dt>
+                <dd>Scrole App</dd>
+                <dt>E-Mail</dt>
+                <dd>contact@scrole.fun</dd>
+                <dt>Betreff</dt>
+                <dd>Fragen zu diesen Bedingungen</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+
+        <!-- ============ ES ============ -->
+        <div data-lang-content data-lang="es">
+          <header>
+            <h1>Términos de uso</h1>
+            <p>Las reglas que se aplican al usar Scrole, la aplicación para encontrar eventos y construir tu comunidad.
+            </p>
+          </header>
+
+          <section class="policy-section" id="es-objeto">
+            <h2><span class="num">01</span>Objeto y aceptación</h2>
+            <p>Estos términos de uso (los «Términos») regulan el uso de la aplicación Scrole, publicada por
+              <strong>Scrole App</strong>, un proyecto creado por dos personas cuya empresa está actualmente en proceso
+              de creación. Al crear una cuenta o usar Scrole, aceptas estos Términos en su totalidad. Si no estás de
+              acuerdo con alguna de sus cláusulas, no debes usar la aplicación.</p>
+          </section>
+
+          <section class="policy-section" id="es-elegibilidad">
+            <h2><span class="num">02</span>Elegibilidad</h2>
+            <p>Scrole está reservada a personas de <strong>18 años o más</strong>. Al crear una cuenta, declaras tener
+              al menos 18 años. Cualquier registro fraudulento en este punto puede conllevar la suspensión inmediata de
+              la cuenta, conforme a nuestra política de privacidad.</p>
+          </section>
+
+          <section class="policy-section" id="es-cuenta">
+            <h2><span class="num">03</span>Tu cuenta</h2>
+            <p>Eres responsable de la exactitud de la información proporcionada al registrarte y de mantener la
+              confidencialidad de tus credenciales de acceso. Para limitar la suplantación de identidad y el abuso,
+              ciertos datos (nombre de usuario, género, fecha de nacimiento, ubicación) solo pueden modificarse una vez
+              cada 90 días. Debes informarnos de inmediato ante cualquier uso no autorizado de tu cuenta.</p>
+          </section>
+
+          <section class="policy-section" id="es-conducta">
+            <h2><span class="num">04</span>Normas de conducta</h2>
+            <p>Al usar Scrole, te comprometes a no:</p>
+            <ul>
+              <li>publicar contenido ilegal, de odio, violento, sexualmente explícito o de acoso;</li>
+              <li>suplantar la identidad de otra persona o entidad;</li>
+              <li>usar la aplicación con fines de spam, fraude o publicidad no solicitada;</li>
+              <li>intentar eludir las medidas de seguridad o acceder a datos que no te correspondan;</li>
+              <li>dañar a menores de edad de cualquier forma.</li>
+            </ul>
+            <p>El incumplimiento de estas normas puede conllevar una advertencia, una restricción temporal o la
+              eliminación definitiva de la cuenta.</p>
+          </section>
+
+          <section class="policy-section" id="es-comunidades">
+            <h2><span class="num">05</span>Comunidades</h2>
+            <p>Cualquier persona puede crear una comunidad en Scrole y se convierte en su administradora (rol «Owner»).
+              Los administradores y moderadores de una comunidad son responsables de hacer cumplir estos Términos dentro
+              de ella, incluida la definición de reglas de acceso adicionales (edad, país, género). Scrole se reserva el
+              derecho de suspender o eliminar una comunidad que no cumpla estos Términos.</p>
+          </section>
+
+          <section class="policy-section" id="es-certificacion">
+            <h2><span class="num">06</span>Certificación de cuenta</h2>
+            <p>Scrole ofrece una certificación de cuenta de pago, sujeta a la verificación de documentos de identidad.
+              Los pagos son procesados por nuestro proveedor <strong>Genuys</strong>. La certificación puede rechazarse
+              si los documentos aportados no son válidos o están falsificados, y revocarse si la cuenta incumple
+              posteriormente estos Términos. Las condiciones de reembolso, en su caso, se te comunicarán en el momento
+              del pago.</p>
+          </section>
+
+          <section class="policy-section" id="es-contenido">
+            <h2><span class="num">07</span>Contenido y propiedad intelectual</h2>
+            <p>Conservas la propiedad del contenido que publicas en Scrole (fotos, textos, biografía). Al publicarlo,
+              concedes a Scrole una licencia no exclusiva, gratuita y mundial para alojar, mostrar y distribuir ese
+              contenido como parte del funcionamiento de la aplicación. Garantizas disponer de los derechos necesarios
+              sobre cualquier contenido que publiques y que este no vulnera derechos de terceros.</p>
+          </section>
+
+          <section class="policy-section" id="es-moderacion">
+            <h2><span class="num">08</span>Reportes, moderación y sanciones</h2>
+            <p>Puedes reportar contenido o un perfil, y bloquear a otro usuario. Nuestro equipo de moderación revisa los
+              reportes y puede tomar medidas proporcionales a la gravedad de los hechos: advertencia, restricción
+              temporal, suspensión o eliminación definitiva de la cuenta implicada.</p>
+          </section>
+
+          <section class="policy-section" id="es-eliminacion">
+            <h2><span class="num">09</span>Suspensión y eliminación de cuenta</h2>
+            <p>Puedes eliminar tu cuenta en cualquier momento desde los ajustes de la aplicación. Podemos suspender o
+              eliminar tu cuenta en caso de incumplimiento de estos Términos, sin previo aviso en casos graves. Consulta
+              nuestra política de privacidad para conocer los plazos de conservación de datos tras la eliminación.</p>
+          </section>
+
+          <section class="policy-section" id="es-responsabilidad">
+            <h2><span class="num">10</span>Limitación de responsabilidad</h2>
+            <p>Scrole se proporciona «tal cual». En la medida permitida por la ley, Scrole App no será responsable de
+              los daños indirectos derivados del uso de la aplicación. El contenido publicado por los usuarios es de su
+              exclusiva responsabilidad.</p>
+          </section>
+
+          <section class="policy-section" id="es-modificaciones">
+            <h2><span class="num">11</span>Modificaciones de estos Términos</h2>
+            <p>Podemos actualizar estos Términos para reflejar cambios en nuestros servicios o en la normativa
+              aplicable. Te avisaremos en la aplicación de cualquier cambio importante antes de que entre en vigor.</p>
+          </section>
+
+          <section class="policy-section" id="es-ley">
+            <h2><span class="num">12</span>Ley aplicable</h2>
+            <div class="note-box">
+              Cláusula provisional, pendiente de validación jurídica tras la creación oficial de la empresa.
+            </div>
+            <p>Con carácter provisional, estos Términos se rigen por la legislación de Camerún. Cualquier disputa sobre
+              su interpretación o cumplimiento se someterá a los tribunales competentes, salvo disposición imperativa
+              contraria aplicable en tu lugar de residencia.</p>
+          </section>
+
+          <section class="policy-section" id="es-contacto">
+            <h2><span class="num">13</span>Contacto</h2>
+            <div class="contact-block">
+              <dl>
+                <dt>Editor</dt>
+                <dd>Scrole App</dd>
+                <dt>Correo</dt>
+                <dd>contact@scrole.fun</dd>
+                <dt>Asunto</dt>
+                <dd>Preguntas sobre estos Términos</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+
+        <!-- ============ ZH ============ -->
+        <div data-lang-content data-lang="zh">
+          <header>
+            <h1>使用条款</h1>
+            <p>使用 Scrole（用于发现活动和建立社群的应用）时需要遵守的规则。</p>
+          </header>
+
+          <section class="policy-section" id="zh-zongze">
+            <h2><span class="num">01</span>目的与接受</h2>
+            <p>本使用条款（"条款"）规范 Scrole 应用的使用，该应用由 <strong>Scrole App</strong> 发布，这是一个由两个人创建的项目，其公司目前正在筹建中。创建账户或使用 Scrole
+              即表示您完全接受本条款。如果您不同意其中任何条款，请勿使用本应用。</p>
+          </section>
+
+          <section class="policy-section" id="zh-zige">
+            <h2><span class="num">02</span>使用资格</h2>
+            <p>Scrole 仅面向 <strong>18 周岁及以上</strong>人士开放。创建账户即表示您声明自己已年满 18 岁。根据我们的隐私政策，在此项上进行虚假登记可能导致账户被立即停用。</p>
+          </section>
+
+          <section class="policy-section" id="zh-zhanghu">
+            <h2><span class="num">03</span>您的账户</h2>
+            <p>您应对注册时提供信息的准确性以及登录凭证的保密性负责。为限制身份冒用和滥用，部分信息（用户名、性别、出生日期、位置）每 90 天只能修改一次。如发现账户被未经授权使用，您必须立即通知我们。</p>
+          </section>
+
+          <section class="policy-section" id="zh-xingwei">
+            <h2><span class="num">04</span>行为规范</h2>
+            <p>使用 Scrole 时，您承诺不会：</p>
+            <ul>
+              <li>发布违法、仇恨、暴力、露骨色情或骚扰性内容；</li>
+              <li>冒充他人或其他实体的身份；</li>
+              <li>将应用用于垃圾信息、欺诈或未经请求的推销；</li>
+              <li>试图绕过安全措施或访问不属于您的数据；</li>
+              <li>以任何方式伤害未成年人。</li>
+            </ul>
+            <p>违反上述规则可能导致警告、临时限制或永久删除账户。</p>
+          </section>
+
+          <section class="policy-section" id="zh-shequn">
+            <h2><span class="num">05</span>社群</h2>
+            <p>任何人都可以在 Scrole 上创建社群，并成为该社群的管理员（"Owner"
+              角色）。社群的管理员和版主负责在其社群内执行本条款，包括设定额外的准入规则（年龄、国家、性别）。对于不遵守本条款的社群，Scrole 保留将其停用或删除的权利。</p>
+          </section>
+
+          <section class="policy-section" id="zh-renzheng">
+            <h2><span class="num">06</span>账号认证</h2>
+            <p>Scrole 提供付费账号认证服务，需经过身份证件核验。支付由我们的服务商 <strong>Genuys</strong>
+              处理。若提交的证件无效或伪造，认证申请可能被拒绝；若账户此后违反本条款，认证也可能被撤销。如有退款条款，将在付款时告知您。</p>
+          </section>
+
+          <section class="policy-section" id="zh-neirong">
+            <h2><span class="num">07</span>内容与知识产权</h2>
+            <p>您对在 Scrole 上发布的内容（照片、文字、个人简介）保留所有权。发布内容即表示您授予 Scrole
+              一项非独占、免费、全球性的许可，允许其在应用运营范围内托管、展示和分发该内容。您保证对所发布的任何内容拥有必要权利，且不侵犯他人权利。</p>
+          </section>
+
+          <section class="policy-section" id="zh-shencha">
+            <h2><span class="num">08</span>举报、审核与处罚</h2>
+            <p>您可以举报内容或用户资料，也可以屏蔽其他用户。我们的审核团队会审查举报，并可根据情节严重程度采取相应措施：警告、临时限制、停用或永久删除相关账户。</p>
+          </section>
+
+          <section class="policy-section" id="zh-zhuxiao">
+            <h2><span class="num">09</span>账户停用与删除</h2>
+            <p>您可以随时通过应用设置删除您的账户。如您违反本条款，我们可能停用或删除您的账户；情节严重的，无需事先通知。删除后数据的保留期限请参见我们的隐私政策。</p>
+          </section>
+
+          <section class="policy-section" id="zh-zeren">
+            <h2><span class="num">10</span>责任限制</h2>
+            <p>Scrole 按"现状"提供。在法律允许的范围内，Scrole App 不对因使用本应用而产生的间接损害承担责任。用户发布的内容由用户自行负责。</p>
+          </section>
+
+          <section class="policy-section" id="zh-xiugai">
+            <h2><span class="num">11</span>本条款的修改</h2>
+            <p>我们可能会更新本条款，以反映服务或适用法律的变化。任何重大变更都会在生效前通过应用通知您。</p>
+          </section>
+
+          <section class="policy-section" id="zh-falv">
+            <h2><span class="num">12</span>适用法律</h2>
+            <div class="note-box">
+              本条款为临时条款，待公司正式成立后需经法律顾问审核确认。
+            </div>
+            <p>本条款暂时适用喀麦隆法律。除您所在居住地适用的强制性规定另有规定外，因本条款解释或履行产生的任何争议均提交有管辖权的法院处理。</p>
+          </section>
+
+          <section class="policy-section" id="zh-lianxi">
+            <h2><span class="num">13</span>联系我们</h2>
+            <div class="contact-block">
+              <dl>
+                <dt>发布方</dt>
+                <dd>Scrole App</dd>
+                <dt>邮箱</dt>
+                <dd>contact@scrole.fun</dd>
+                <dt>主题</dt>
+                <dd>关于本条款的问题</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      var LANGS = ['fr', 'en', 'de', 'es', 'zh'];
+      var UI = {
+        fr: {toc: 'Sommaire', lang: 'Langue', theme: 'Changer de thème'},
+        en: {toc: 'Contents', lang: 'Language', theme: 'Switch theme'},
+        de: {toc: 'Inhalt', lang: 'Sprache', theme: 'Design wechseln'},
+        es: {toc: 'Índice', lang: 'Idioma', theme: 'Cambiar tema'},
+        zh: {toc: '目录', lang: '语言', theme: '切换主题'}
+      };
+      var root = document.documentElement;
+      var select = document.getElementById('lang-select');
+      var themeBtn = document.getElementById('theme-toggle');
+      var themeMeta = document.querySelector('meta[name="theme-color"]');
+      var tocList = document.getElementById('toc-list');
+      var currentLang = 'fr';
+
+      function read(k) {try {return localStorage.getItem(k);} catch (e) {return null;} }
+      function save(k, v) {try {localStorage.setItem(k, v);} catch (e) { } }
+
+      /* ---------- Thème ---------- */
+      function applyTheme(t) {
+        root.setAttribute('data-theme', t);
+        if (themeMeta) themeMeta.setAttribute('content', t === 'dark' ? '#0c0d10' : '#f6f7f9');
+      }
+
+      applyTheme(root.getAttribute('data-theme') || 'light');
+
+      themeBtn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+        save('scrole-theme', next);
+      });
+
+      if (window.matchMedia) {
+        matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+          if (!read('scrole-theme')) applyTheme(e.matches ? 'dark' : 'light');
+        });
+      }
+
+      /* ---------- Langue ---------- */
+      function detectDefaultLang() {
+        var stored = read('scrole-lang');
+        if (stored && LANGS.indexOf(stored) !== -1) return stored;
+        var nav = (navigator.language || 'fr').slice(0, 2).toLowerCase();
+        return LANGS.indexOf(nav) !== -1 ? nav : 'fr';
+      }
+
+      function buildToc(lang) {
+        tocList.innerHTML = '';
+        document.querySelectorAll('[data-lang="' + lang + '"] section.policy-section').forEach(function (sec) {
+          var heading = sec.querySelector('h2');
+          var label = heading ? heading.textContent.replace(/^\d+/, '').trim() : sec.id;
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.href = '#' + sec.id;
+          a.textContent = label;
+          a.dataset.target = sec.id;
+          li.appendChild(a);
+          tocList.appendChild(li);
+        });
+      }
+
+      function setLang(lang) {
+        currentLang = lang;
+        root.setAttribute('lang', lang);
+        select.value = lang;
+
+        document.querySelectorAll('[data-lang-content]').forEach(function (el) {
+          el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+        });
+
+        document.querySelector('nav.toc').setAttribute('aria-label', UI[lang].toc);
+        select.setAttribute('aria-label', UI[lang].lang);
+        themeBtn.setAttribute('aria-label', UI[lang].theme);
+        themeBtn.setAttribute('title', UI[lang].theme);
+
+        buildToc(lang);
+        onScroll();
+      }
+
+      select.addEventListener('change', function () {
+        save('scrole-lang', select.value);
+        setLang(select.value);
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      });
+
+      /* ---------- Section active dans le sommaire ---------- */
+      function onScroll() {
+        var links = document.querySelectorAll('#toc-list a');
+        var activeIndex = 0;
+        links.forEach(function (a, i) {
+          var sec = document.getElementById(a.dataset.target);
+          if (sec && sec.getBoundingClientRect().top <= 120) activeIndex = i;
+        });
+        links.forEach(function (a, i) {
+          a.classList.toggle('active', i === activeIndex);
+        });
+      }
+
+      window.addEventListener('scroll', onScroll, {passive: true});
+
+      setLang(detectDefaultLang());
+    })();
+  </script>
+
+</body>
+
+</html>
